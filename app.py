@@ -13,3 +13,4 @@ st.image("https://i.imgur.com/zKrqcZG.jpeg", use_column_width=True) # 이미지 
 st.image("img/mnDTYJO.jpeg", width=200)
 st.image(image="img/mnDTYJO.jpeg") # 키워드
 
+
