@@ -62,9 +62,9 @@ if mode :
     format = None
     if b == "친절하게" :
         format = lambda x : f"여러분~ {x}"
-    if b == "반말" :
+    elif b == "반말" :
         format = lambda x : f"야 {x}"
-    if b == "욕" :
+    elif b == "욕" :
         format = lambda x : f"XX, {x}"
     if r == "취업":
         for i in range(s) :
